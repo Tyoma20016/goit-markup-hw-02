@@ -1,0 +1,229 @@
+:root{
+    --color-HexachromeBlack: #212121;
+    --color-darkBlue: #2196F3;
+    --color-white:#FFFFFF;
+    --color-Hex:#F5F5F5;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:var(--color-Hex);
+    text-decoration: none;
+    color: #212121;
+}
+.header-nav-link{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; 
+}
+.header {
+    background-color: var(--color-white);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+
+/*-------HEADER-----*/
+
+.header {
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+.header-logo-in{
+    color:var(--color-darkBlue);
+}
+
+
+.header-link.current{
+    color: var(--color-darkBlue);
+    text-decoration: none;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-HexachromeBlack);
+    text-decoration: none;
+
+}
+.header-link:hover,
+.header-link:focus,
+.ul-contacts:hover,
+.ul-contacts:focus,
+.footer-text:hover,
+.footer-text:focus
+{
+    color: var(--color-darkBlue);
+}
+
+.ul-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+/*-------MAIN особливості--------*/
+
+.hero{
+    background: #2F303A
+}
+.hero-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    letter-spacing: 0.06em;
+    color: var(--color-white); 
+    background: var(--color-darkBlue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;  
+}
+
+/*------Особливості-----*/
+
+.feature-list .feature-link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-HexachromeBlack);
+}
+
+.feature-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*------чим ми займаємося-----*/
+
+.work{
+    background-color: var(--color-Hex);
+}
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--color-HexachromeBlack);
+}
+
+/*-----НАША КОМАНДА------*/
+
+.team{
+    background: #F5F4FA;
+}
+.team-uptitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--color-HexachromeBlack);
+}
+
+.team-heros{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    color: var(--color-HexachromeBlack);
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+/*-----footer-------*/
+
+.footer-logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    text-decoration: none;
+}
+.footer-card{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    text-decoration: none;
+}
+.footer-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+
+               /*------PORTFOLIO-------*/
+
+/*---filter---*/
+
+.button-tipe{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--color-HexachromeBlack);
+    background: #F5F4FA;
+}
+.button-tipe:hover{
+    color: var(--color-white);
+    background-color: var(--color-darkBlue);
+}
+
+/*-----заголовки------*/
+
+
+.program-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-HexachromeBlack);
+    text-decoration: none;
+}
+.program-text{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.program-link{
+    text-decoration: none;
+}
