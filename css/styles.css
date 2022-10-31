@@ -8,17 +8,23 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color:var(--color-Hex);
-    text-decoration: none;
+    background-color:var(--color-white);
     color: #212121;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .header-nav-link{
     text-decoration: none;
 }
 
-ul{
-    list-style: none; 
+
+.list{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
 }
+
 .header {
     background-color: var(--color-white);
 }
@@ -32,18 +38,21 @@ ul{
 
 .header {
 }
-.header-logo {
+.header-logo,
+.footer-logo{
     font-family: 'Raleway';
     font-style: normal;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color:#000000;
+    line-height: 1.19;
+    color: var(--color-darkBlue);
 }
 .header-logo-in{
-    color:var(--color-darkBlue);
+    color:#000000;
+}
+.header-logo-on{
+    color: var(--color-white);
 }
 
 
@@ -54,7 +63,6 @@ ul{
 
 .header-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-HexachromeBlack);
@@ -73,7 +81,6 @@ ul{
 
 .ul-contacts{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
@@ -110,42 +117,35 @@ ul{
 
 .feature-list .feature-link{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-HexachromeBlack);
 }
 
 .feature-text{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /*------чим ми займаємося-----*/
 
 .work{
-    background-color: var(--color-Hex);
+    background-color: var(--color-white);
 }
 .work-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     color: var(--color-HexachromeBlack);
 }
 
 /*-----НАША КОМАНДА------*/
 
 .team{
-    background: #F5F4FA;
+    background: var(--color-white);
 }
 .team-uptitle{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.03em;
     color: var(--color-HexachromeBlack);
 }
 
@@ -153,38 +153,23 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
-    letter-spacing: 0.03em;
     color: var(--color-HexachromeBlack);
 }
 .team-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
-    letter-spacing: 0.03em;
     color: #757575;
 
 }
 /*-----footer-------*/
 
-.footer-logo{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-white);
-    text-decoration: none;
-}
+
 .footer-card{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--color-white);
     text-decoration: none;
+    font-style: normal;
 }
 .footer-text{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
@@ -194,13 +179,15 @@ ul{
 
 /*---filter---*/
 
+
+
 .button-tipe{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
     color: var(--color-HexachromeBlack);
     background: #F5F4FA;
+    cursor: pointer;
 }
 .button-tipe:hover{
     color: var(--color-white);
@@ -221,7 +208,6 @@ ul{
 .program-text{
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 .program-link{
