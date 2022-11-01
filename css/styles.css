@@ -20,7 +20,7 @@ body{
 
 
 .list{
-    text-decoration: none;
+    list-style: none;
     margin: 0%;
     padding: 0%;
 }
@@ -140,7 +140,7 @@ body{
 /*-----НАША КОМАНДА------*/
 
 .team{
-    background: var(--color-white);
+    background: #F5F4FA;
 }
 .team-uptitle{
     font-weight: 700;
@@ -163,11 +163,12 @@ body{
 }
 /*-----footer-------*/
 
-
+.footer-adsress{
+    font-style: normal;
+}
 .footer-card{
     color: var(--color-white);
     text-decoration: none;
-    font-style: normal;
 }
 .footer-text{
     color: rgba(255, 255, 255, 0.6);
